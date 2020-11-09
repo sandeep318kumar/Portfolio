@@ -1,0 +1,69 @@
+<%- include('./partials/header') -%>
+
+    <div class="jumbotron">
+			<div class="container">
+				<h1 class="display-4">Hello, there!</h1>
+				  <p class="lead">Welcome To My Personal Portfolio.</p>
+				  <hr class="my-4">
+				  <p>Do Check My Recent Projects By Clicking Here.</p>
+				  <a class="btn btn-primary btn-lg" href="/projects" role="button">Projects...</a>	
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row row-content">
+				<div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid"
+                                src="https://i.imgur.com/8K4tkYu.png" alt="yelpcamp">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>YelpCamp <span class="badge badge-success">HOT</span></h2>
+                                <p class="d-none d-sm-block">A fully functional website for campgrounds.</p>
+                                <a class="btn btn-primary" target="_blank" href="https://thawing-mountain-73104.herokuapp.com/">Click Here!</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="https://i.imgur.com/C40XbMo.png" alt="RGBColor">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>The Great RGB Color Game <span class="badge badge-danger">NEW</span></h2>
+                                <p class="d-md-block d-sm-none">A great appication to visit to master your concepts on color mixing</p>
+                                <a class="btn btn-primary" target="_blank" href="https://cryptic-beach-40500.herokuapp.com/">Click Here!</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="https://i.imgur.com/mpTSbwG.png" alt="ToDolist">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="mt-0">To Do List <span class="badge badge-success">HOT</span></h2>
+                        		<p>A great appicatioon to keep all TODOs at one place</p>
+                        		<a class="btn btn-primary" target="_blank" href="https://stormy-brook-93009.herokuapp.com/">Click Here!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+			</div>
+		</div>
+				
+	<form>
+		<div class="form-group container">
+			<h4>Subscribe To My Newsletter</h4>
+			<input type="Email" name="Email" placeholder="Enter Your Email Here" required>
+			<button type="submit" class="btn btn-primary btn-sm">Subscribe!!</button>
+		</div>
+	</form>	
+
+
+<%- include('./partials/footer') -%>

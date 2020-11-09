@@ -1,0 +1,38 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+nav{
+    background-color:#072ac8;
+}
+.jumbotron{
+    background-color:#a2d6f9 !important;
+    width: 85%;
+    margin: 5px auto !important;
+    margin-top: 20px !important;
+    /*padding: 70px 30px;*/
+}
+.footer{
+    background-color: #1e96fc;
+    margin:0px auto;
+    padding:20px 0px;
+}
+.white{
+    color:white;
+}
+.black{
+  color: black;
+}
+.purple{
+    background-color: #9b0dc7; 
+}
+.light{
+    background: #bbacd6da; 
+}
+
+.in{
+  display: inline;
+}
+.block{
+  display: block;
+}
